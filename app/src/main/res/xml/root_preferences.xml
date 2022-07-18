@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/employee_settings_header">
+
+        <ListPreference
+            app:key="store"
+            app:defaultValue="LIDL"
+            app:entries="@array/store_entries"
+            app:entryValues="@array/store_values"
+            app:title="@string/store_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="store_address"
+            app:title="@string/store_address_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <SeekBarPreference
+            app:key="radius"
+            app:title="@string/store_radius"
+            app:showSeekBarValue="true"
+            app:defaultValue="1000"
+            android:max="5000"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

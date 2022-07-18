@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">WhereIsMyCart</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="employee_settings_header">Employee</string>
+
+    <!-- Messages Preferences -->
+    <string name="store_title">Store</string>
+    <string name="store_address_title">Store Address</string>
+
+    <string name="add_cart_selected_store">Selected Store</string>
+    <string name="add_cart_add_cart">Add Cart</string>
+    <string name="main_welcome">Welcome to WhereIsMyCart App!</string>
+    <string name="main_user">User</string>
+    <string name="main_employee">Employee</string>
+    <string name="select_store_cart_name">Select cart name</string>
+    <string name="select_store_lidl">Lidl</string>
+    <string name="select_store_edeka">Edeka</string>
+    <string name="select_store_rewe">Rewe</string>
+    <string name="select_store_aldi">Aldi</string>
+    <string name="store_radius">Radius (Meter)</string>
+    <string name="cart_list_settings">Settings</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_add_cart_on_map">AddCartOnMapActivity</string>
+    <string name="add_cart">Add Cart</string>
+    <string name="cancel">Cancel</string>
+    <string name="refresh">Refresh</string>
+    <string name="cart_list">Cart List</string>
+</resources>
